@@ -1,0 +1,127 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "page-object-model-implementation;verify-page-object-model-implementation",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify Page Object Model Implementation",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 493296699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2895400
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I Launch the browser OGH",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\pom.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 20114472700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I Launch the Orange HRM application",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\pom.ts:20"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 296980500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@method",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "page-object-model-implementation;verify-page-object-model-implementation",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Verify Page Object Model Implementation",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 228009799
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1597800
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I Launch the browser OGH",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\pom.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I Launch the Home Page application"
+          },
+          {
+            "result": {
+              "status": "failed",
+              "duration": 286043700,
+              "error_message": "page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n\u001b[2m  - navigating to \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.navigateToOrangeHRMApplication (C:\\Users\\SwapnaAnkarla\\OneDrive - Evolutyz Corp\\Desktop\\AUtoCucumber\\PlaywrightAutomationCode\\Pages\\Loginpage.ts:21:32)\n    at World.<anonymous> (C:\\Users\\SwapnaAnkarla\\OneDrive - Evolutyz Corp\\Desktop\\AUtoCucumber\\PlaywrightAutomationCode\\StepDefinition\\pom.ts:17:8)"
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@method",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "page-object-model-implementation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Page Object Model Implementation",
+    "tags": [],
+    "uri": "PlaywrightAutomationCode\\FeatureFiles\\PageoM.feature"
+  }
+]

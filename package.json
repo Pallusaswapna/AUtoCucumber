@@ -1,0 +1,36 @@
+{
+  "name": "autocucumber",
+  "version": "1.0.0",
+  "description": "this is automation project",
+  "license": "ISC",
+  "author": "quality thought",
+  "type": "commonjs",
+  "main": "index.js",
+  "keywords": [
+    "pw",
+    "ts",
+    "js"
+  ],
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.5",
+    "@types/pdf-parse": "^1.1.5",
+    "cucumber-html-reporter": "^5.0.2",
+    "dotenv": "^17.4.2",
+    "playwright": "^1.62.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "node": "^26.7.0",
+    "pdf-parse": "^2.4.5",
+    "xlsx": "^0.18.5"
+  },
+  "allowScripts": {
+    "node@26.7.0": true
+  }
+}

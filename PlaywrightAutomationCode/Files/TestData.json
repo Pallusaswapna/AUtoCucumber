@@ -1,0 +1,26 @@
+{
+    "TestData": {
+        "Name": "testuser",
+        "Email": "testpassword@gmail.com",
+        "Phone": "9856745869",
+        "Address": "Hyderabad",
+        "Gender": "Male"
+    },
+    "TestData2": {
+        "Name": "Swapna",
+        "Email": "swapna@gmail.com",
+        "Phone": "444556789",
+        "Address": "Vizag",
+        "Gender": "Female"
+    },
+    "CredentialsOrangeHRM": {
+        "Username": "Admin",
+        "Password": "admin123",
+         "url":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+         "Forgotusernametext" :"swapna",
+         "Name":"swap",
+     "id":    "1256"
+
+    
+    }
+}
